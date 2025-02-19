@@ -1,0 +1,54 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-image: url('https://media.istockphoto.com/id/537621432/photo/starry-night-sky-in-monument-valley.jpg?s=612x612&w=0&k=20&c=eRwYsNXKwOB-h4r3ByjKm_IHLUHbsgeae1VQxMO2tOU='); /* Replace with your image URL */
+  background-size: cover; /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents repeating */
+  height: 100vh; /* Ensures full viewport height */
+  
+  
+}
+h1{
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgb(146, 169, 173);
+  
+  
+}
+.buffer{
+  height: 10rem;
+}
+hr {
+  max-width: 65px;  /* Ensures it doesn't exceed 65px */
+  height: 5px;  /* Adjusts thickness */
+  background-color: rgb(38, 131, 201);
+  opacity: 1;
+  
+  
+}
+.btn-warning{
+  background-color: rgb(38, 131, 201);
+  border-color: rgb(38, 131, 201);
+}
+
+.btn-warning:hover{
+  background-color:rgb(24, 82, 126) ;
+  border-color: rgb(24, 82, 126) ;
+}
+.container{
+  align-items: center;
+  justify-content: center;
+}
+.section{
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
